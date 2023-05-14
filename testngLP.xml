@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SuiteLP">
+  <test thread-count="5" name="TestLP">
+	  <parameter name="url" value="https://adactinhotelapp.com/"></parameter>
+    <classes>
+      <class name="org.pageexec.LoginExec"/>
+      <class name="org.pageexec.SearchHotel"/>
+      <class name="org.pageexec.BookHotel"/>
+    </classes>
+  </test> 
+</suite> <!-- SuiteLP -->
